@@ -134,3 +134,16 @@ input.sign_google{
 p.terms{
   font-weight: bold;
 }
+@media screen and (max-width:1199px) {
+  h1{
+    font-size: 44px;
+  }
+  p.sotto_principale{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:768px) {
+  div.container-fluid.hero{
+    height: auto;
+  }
+}
