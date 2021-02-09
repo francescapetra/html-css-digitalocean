@@ -185,7 +185,10 @@ div.angle{
   font-size: 50px;
   font-weight: bold;
 }
-
+i.far.fa-angry{
+  margin-left: 5px;
+  font-size: 12px;
+}
 @media screen and (max-width:1199px) {
   h1{
     font-size: 44px;
@@ -207,11 +210,11 @@ div.angle{
   img.loghi_img {
     width: 36%;
     max-width: calc((100% / 2) - 24px);
-}
-ul.deploy_list{
-  margin: 0 0 15px 0;
-}
-div.angle{
-  display: none;
-}
+ }
+ ul.deploy_list{
+   margin: 0 0 15px 0;
+ }
+ div.angle{
+   display: none;
+ }
 }
