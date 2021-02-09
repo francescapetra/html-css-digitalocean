@@ -85,33 +85,52 @@ div.container-fluid.hero{
 h1{
   font-size: 58px;
   max-width: 80%;
+  margin-left: 10px;
 }
 p.sotto_principale{
   font-size: 23px;
   color: #bbcbfd;
+  margin-left: 10px;
 }
 .container_small{
-  height: 400px;
   width: auto;
   border-radius: 5px;
+  padding-bottom: 10px;
+  margin: 0 20px 20px 0px;
+
 }
 h3, a.link_form{
-  font-size: 30px;
+  font-size: 26px;
   font-weight: bold;
   display: block;
 }
 h3{
-  padding-top: 40px;
+  margin-top: 10px;
+  padding-top: 25px;
 }
  a.link_form{
- padding-bottom: 10px;
+ padding-bottom: 15px;
  }
  input.email_psw{
-   font-weight: bold;
-   width: 90%;
+   width: 80%;
    font-size: 18px;
-   padding:8px 0 8px 5px;
+   padding:5px 0 8px 5px;
    margin-bottom: 10px;
    border: 1px solid lightgray;
    border-radius: 8px;
  }
+input.create_account{
+  background-color: #579aff;
+  border: none;
+}
+input.sign_google{
+  background-image: url('../img/google-icon.png');
+  background-repeat: no-repeat;
+  background-size: 6%;
+  background-position: 3%;
+  border: none;
+  box-shadow: 2px 2px #e3e3e3;
+}
+p.terms{
+  font-weight: bold;
+}
