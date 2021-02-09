@@ -171,7 +171,7 @@ img.loghi_img{
     height: auto;
   }
   img.loghi_img {
-    width: 40%;
+    width: 36%;
     max-width: calc((100% / 2) - 24px);
 }
 }
