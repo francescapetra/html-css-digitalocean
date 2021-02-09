@@ -136,7 +136,8 @@ p.terms{
   font-weight: bold;
 }
 section.set_loghi,
-section.deploy_scale{
+section.deploy_scale,
+section.designed{
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -174,8 +175,16 @@ p.p_deploy{
   max-width: 80%;
   margin-bottom: 30px;
 }
-
-
+img.carosel_screen{
+  display: inline-block;
+  width: 50%;
+  margin: 0 20px 10px 20px;
+}
+div.angle{
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+}
 
 @media screen and (max-width:1199px) {
   h1{
@@ -198,5 +207,11 @@ p.p_deploy{
   img.loghi_img {
     width: 36%;
     max-width: calc((100% / 2) - 24px);
+}
+ul.deploy_list{
+  margin: 0 0 15px 0;
+}
+div.angle{
+  display: none;
 }
 }
