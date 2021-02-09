@@ -2,3 +2,70 @@ body{
   background-color: pink;
   font-family: 'Roboto', sans-serif;
 }
+.whi_color{
+  color:#ffffff;
+}
+.blu_color{
+  color:#031c4e;
+}
+.bluel_color{
+  color: #006aff;
+}
+.gray_color{
+  color: #5c6a88;
+}
+.aqua_color{
+  color: #00d7d2;
+}
+.bg_aqua{
+  background-color: #00d7d2;
+}
+.bg_whi{
+  background-color: #ffffff;
+}
+.bg_gray{
+  background-color: #f3f5f9;
+}
+.bg_bluel{
+  background-color: #006aff;
+}
+.bg_blue{
+  background-color: #031c4e;
+}
+.header_top{
+  height: 70px;
+  line-height: 70px;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: fixed;
+  z-index: 2;
+}
+.first_nav{
+  display: inline-block;
+}
+.first_nav li a,
+.second_nav li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #031c4e;
+  margin-left: 5px;
+}
+img.logo_header{
+  max-height: 28px;
+}
+i.angle_down{
+  display: inline-block;
+vertical-align: middle;
+margin-left: 3px;
+}
+.btn{
+  background-color: white;
+  border: 2px solid #006aff;
+  display: inline-block;
+}
+a.btn.btn_blue{
+  color: #006aff;
+  font-size: 14px;
+}
