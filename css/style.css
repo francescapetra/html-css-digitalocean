@@ -135,7 +135,8 @@ input.sign_google{
 p.terms{
   font-weight: bold;
 }
-section.set_loghi{
+section.set_loghi,
+section.deploy_scale{
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -143,12 +144,36 @@ img.loghi_img{
   display: inline-block;
   height: auto;
   margin: 30px 10px;
+  width: 14%;
   max-width: calc((100% / 6) - 4px);
 }
-
-
-
-
+h2{
+  font-size: 34px;
+  font-weight: bold;
+  margin: 20px 0 20px 0;
+}
+p.sotto_parag{
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+ul.deploy_list{
+  list-style: none;
+  border-left: 1px solid #5c6a88;
+  font-size: 20px;
+  padding-left: 15px;
+  line-height: 2.5;
+  margin-left: 50px;
+}
+h5{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+p.p_deploy{
+  line-height: 1.7;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
 
 
 
