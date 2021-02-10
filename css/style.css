@@ -81,8 +81,8 @@ img.logo_header{
 }
 i.angle_down{
   display: inline-block;
-vertical-align: middle;
-margin-left: 3px;
+  vertical-align: middle;
+  margin-left: 3px;
 }
 .btn{
   background-color: white;
@@ -202,17 +202,18 @@ p.p_deploy{
 p.p_deploy.full_w{
   max-width: 100%;
 }
-img.carosel_screen{
+img.carousel_screen{
   display: inline-block;
-  width: 50%;
+  width: 95%;
   margin: 0 20px 10px 20px;
 }
-div.angle{
+div.carousel_navigation_left,
+div.carousel_navigation_right{
   display: inline-block;
   font-size: 50px;
   font-weight: bold;
-  vertical-align: middle;
 }
+
 i.far.fa-angry{
   margin-left: 5px;
   font-size: 12px;
@@ -228,7 +229,7 @@ img.logo_trio{
   max-width: 220px;
   margin: 20px 0;
 }
-.quadro{
+.carousel_inner{
   max-width: 500px;
   display: inline-block;
   vertical-align: middle;
