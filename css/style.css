@@ -204,8 +204,7 @@ p.p_deploy.full_w{
 }
 img.carousel_screen{
   display: inline-block;
-  width: 95%;
-  margin: 0 20px 10px 20px;
+  width: 100%;
 }
 div.carousel_navigation_left,
 div.carousel_navigation_right{
