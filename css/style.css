@@ -199,6 +199,9 @@ p.p_deploy{
   max-width: 80%;
   margin-bottom: 20px;
 }
+p.p_deploy.full_w{
+  max-width: 100%;
+}
 img.carosel_screen{
   display: inline-block;
   width: 50%;
@@ -247,6 +250,18 @@ i.icon_social{
 }
 a.social-hov:hover{
   color: #006aff;
+}
+h6{
+  margin-left: 38px;
+  font-size: 16px;
+}
+.list_footer{
+  list-style: none;
+}
+.list_footer li a{
+  color: #7a859d;
+  font-size: 16px;
+  line-height: 2;
 }
 
 @media screen and (max-width:1199px) {
