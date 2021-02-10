@@ -264,7 +264,65 @@ h6{
   line-height: 2;
   padding: 0;
 }
-
+/* helper */
+.supporto{
+  position: fixed;
+  right: 5%;
+  bottom: 2%;
+}
+div.squalo{
+  height: 70px;
+  width: 70px;
+  background-color: #006aff;
+  border-radius: 5px;
+  position: relative;
+  float: right;
+  margin-left: 20px;
+  top: 5px;
+}
+img.shark{
+  width:100%;
+}
+div.fumetto{
+  max-width: 65%;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 5px;
+  float: right;
+}
+div.fumetto::after{
+  content:"";
+  display:block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ffffff;
+  position: absolute;
+  right: -9px;
+  bottom: 14px;
+}
+.notification {
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 7px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  border: 3px solid #ffffff;
+}
+p.help{
+  font-size: 18px;
+  padding: 5px;
+  display: inline-block;
+}
 
 @media screen and (max-width:1199px) {
   h1{
@@ -291,7 +349,15 @@ h6{
  ul.deploy_list{
    margin: 0 0 15px 0;
  }
- div.angle{
+ div.carousel_navigation_left,
+ div.carousel_navigation_right{
    display: none;
+ }
+ .supporto{
+   left: 5%;
+ }
+ div.squalo,
+ div.fumetto{
+   float: none
  }
 }
