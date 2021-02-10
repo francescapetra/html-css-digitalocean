@@ -13,6 +13,9 @@ body{
 .gray_color{
   color: #5c6a88;
 }
+.lgray_color{
+  color: #bbc7e8;
+}
 .aqua_color{
   color: #00d7d2;
 }
@@ -30,6 +33,10 @@ body{
 }
 .bg_blue{
   background-color: #031c4e;
+}
+.bg_gradiente{
+  background: rgb(0,79,233);
+  background: linear-gradient(180deg, rgba(0,79,233,1) 0%, rgba(2,57,142,1) 100%);
 }
 .header_top{
   height: 60px;
@@ -135,10 +142,7 @@ input.sign_google{
 p.terms{
   font-weight: bold;
 }
-section.set_loghi,
-section.deploy_scale,
-section.designed,
-section.features{
+section{
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -193,6 +197,13 @@ i.far.fa-angry{
 img.logo_trio{
   margin-top: 20px;
 }
+.table>tbody>tr>td{
+  border-top: none;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
 @media screen and (max-width:1199px) {
   h1{
     font-size: 44px;
