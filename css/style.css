@@ -44,6 +44,9 @@ body{
 .m_b_0{
   margin-bottom: 0;
 }
+.b_none.btn{
+  border: none;
+}
 .header_top{
   height: 60px;
   line-height: 60px;
