@@ -16,6 +16,12 @@ body{
 .lgray_color{
   color: #bbc7e8;
 }
+.lgray_color_copy{
+  color: #8b94a9;
+}
+.lgray_color_footer{
+  color: #7a859d;
+}
 .aqua_color{
   color: #00d7d2;
 }
@@ -43,6 +49,9 @@ body{
 }
 .m_b_0{
   margin-bottom: 0;
+}
+.m_t_0{
+  margin-top: 0;
 }
 .b_none.btn{
   border: none;
@@ -151,7 +160,8 @@ input.sign_google{
 p.terms{
   font-weight: bold;
 }
-section{
+section,
+footer{
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -229,7 +239,15 @@ a.founder_down{
   padding: 20px 0 15px 0;
   display: inline-block;
 }
-
+img.logo_small{
+  margin-bottom: 10px;
+}
+i.icon_social{
+  font-size: 20px;
+}
+a.social-hov:hover{
+  color: #006aff;
+}
 
 @media screen and (max-width:1199px) {
   h1{
