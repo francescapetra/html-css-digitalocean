@@ -137,7 +137,8 @@ p.terms{
 }
 section.set_loghi,
 section.deploy_scale,
-section.designed{
+section.designed,
+section.features{
   padding-top: 40px;
   padding-bottom: 50px;
 }
@@ -151,7 +152,7 @@ img.loghi_img{
 h2{
   font-size: 34px;
   font-weight: bold;
-  margin: 20px 0 20px 0;
+  margin: 20px 0 25px 0;
 }
 p.sotto_parag{
   font-size: 18px;
@@ -173,7 +174,7 @@ h5{
 p.p_deploy{
   line-height: 1.7;
   max-width: 80%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 img.carosel_screen{
   display: inline-block;
@@ -188,6 +189,9 @@ div.angle{
 i.far.fa-angry{
   margin-left: 5px;
   font-size: 12px;
+}
+img.logo_trio{
+  margin-top: 20px;
 }
 @media screen and (max-width:1199px) {
   h1{
