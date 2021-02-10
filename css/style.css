@@ -38,6 +38,12 @@ body{
   background: rgb(0,79,233);
   background: linear-gradient(180deg, rgba(0,79,233,1) 0%, rgba(2,57,142,1) 100%);
 }
+.f_bold{
+  font-weight: bold;
+}
+.m_b_0{
+  margin-bottom: 0;
+}
 .header_top{
   height: 60px;
   line-height: 60px;
@@ -189,6 +195,7 @@ div.angle{
   display: inline-block;
   font-size: 50px;
   font-weight: bold;
+  vertical-align: middle;
 }
 i.far.fa-angry{
   margin-left: 5px;
@@ -201,7 +208,24 @@ img.logo_trio{
   border-top: none;
   border-bottom: 1px solid #ddd;
 }
-
+.rock_logo{
+  max-width: 220px;
+  margin: 20px 0;
+}
+.quadro{
+  max-width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 20px 0;
+  margin: 0 15px;
+}
+p.p_rock{
+  margin-bottom: 10px;
+}
+a.founder_down{
+  padding: 20px 0 15px 0;
+  display: inline-block;
+}
 
 
 @media screen and (max-width:1199px) {
