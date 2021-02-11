@@ -271,8 +271,8 @@ h6{
   bottom: 2%;
 }
 div.squalo{
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 65px;
   background-color: #006aff;
   border-radius: 5px;
   position: relative;
@@ -282,6 +282,7 @@ div.squalo{
 }
 img.shark{
   width:100%;
+  padding: 7px;
 }
 div.fumetto{
   max-width: 60%;
@@ -319,7 +320,7 @@ div.fumetto::after{
   border: 3px solid #ffffff;
 }
 p.help{
-  font-size: 18px;
+  font-size: 14px;
   padding: 5px;
   display: inline-block;
 }
@@ -343,7 +344,7 @@ p.help{
     height: auto;
   }
   img.loghi_img {
-    width: 36%;
+    width: 32%;
     max-width: calc((100% / 2) - 24px);
  }
  ul.deploy_list{
@@ -363,5 +364,11 @@ p.help{
  div.squalo{
    margin-left: 0;
    margin-bottom: 20px;
+ }
+ div.fumetto{
+   width: 40%;
+ }
+ p.help{
+   font-size: 14px;
  }
 }
