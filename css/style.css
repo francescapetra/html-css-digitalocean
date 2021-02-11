@@ -89,6 +89,9 @@ i.angle_down{
   border: 2px solid #006aff;
   display: inline-block;
 }
+.btn:hover{
+  background: aqua;
+}
 a.btn.btn_blue{
   color: #006aff;
   font-size: 14px;
@@ -139,7 +142,7 @@ h3{
  }
  input.email_psw{
    width: 80%;
-   font-size: 18px;
+   font-size: 16px;
    padding:5px 0 8px 5px;
    margin-bottom: 10px;
    border: 1px solid lightgray;
@@ -219,7 +222,11 @@ div.carousel_navigation_right{
   font-size: 50px;
   font-weight: bold;
 }
-
+div.carousel_navigation_left i:hover,
+div.carousel_navigation_right i:hover{
+  color: blue;
+  font-size: 60px;
+}
 i.far.fa-angry{
   margin-left: 5px;
   font-size: 12px;
@@ -230,6 +237,10 @@ img.logo_trio{
 .table>tbody>tr>td{
   border-top: none;
   border-bottom: 1px solid #ddd;
+  padding:8px 1px;
+}
+a.link_test:hover{
+  color: #006aff;
 }
 .rock_logo{
   max-width: 220px;
@@ -256,6 +267,15 @@ i.icon_social{
   font-size: 20px;
 }
 a.social-hov:hover{
+  color: #006aff;
+}
+ul.list_footer li a,
+a.founder_down,
+a.link_test,
+a.bluel_color{
+  text-decoration: none;
+}
+ul.list_footer li a:hover{
   color: #006aff;
 }
 h6{
@@ -346,6 +366,9 @@ p.help{
   img.loghi_img {
     margin: 20px 10px;
     max-width: calc((100% / 6) - 24px);
+ }
+ .small, small{
+   font-size: 75%;
  }
 }
 @media screen and (max-width:768px) {
