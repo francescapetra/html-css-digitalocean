@@ -189,6 +189,13 @@ ul.deploy_list{
   line-height: 2.5;
   margin-left: 50px;
 }
+ul.deploy_list a:hover{
+  border: none;
+  text-decoration: none;
+  border: 3px solid #006aff;
+  color:#006aff;
+  padding: 10px;
+}
 h5{
   font-size: 20px;
   font-weight: 600;
