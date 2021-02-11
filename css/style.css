@@ -298,6 +298,7 @@ div.fumetto{
   position: relative;
   margin-top: 5px;
   float: right;
+  background-color: #1fb5f4;
 }
 div.fumetto::after{
   content:"";
@@ -306,7 +307,7 @@ div.fumetto::after{
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #ffffff;
+  border-left: 10px solid #1fb5f4;
   position: absolute;
   right: -9px;
   bottom: 14px;
@@ -328,10 +329,11 @@ div.fumetto::after{
 }
 p.help{
   font-size: 14px;
-  padding: 5px;
+  padding-left: 5px;
+  margin-top: 5px;
   display: inline-block;
 }
-
+/* mquery */
 @media screen and (max-width:1199px) {
   h1{
     font-size: 44px;
