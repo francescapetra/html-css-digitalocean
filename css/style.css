@@ -101,12 +101,13 @@ a.btn.btn_blue{
   font-size: 20px;
   vertical-align: middle;
 }
-div.container-fluid.hero{
+div.hero{
   margin-top: 60px;
   height: 500px;
   background-image: url('../img/hero_bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 20px;
 }
 .container_hero{
   margin-top: 60px;
@@ -295,6 +296,7 @@ h6{
   position: fixed;
   right: 5%;
   bottom: 2%;
+  filter: drop-shadow(1px 1px 1px black);
 }
 div.squalo{
   height: 60px;
@@ -317,7 +319,7 @@ div.fumetto{
   position: relative;
   margin-top: 5px;
   float: right;
-  background-color: #1fb5f4;
+  background-color: #ffffff;
 }
 div.fumetto::after{
   content:"";
@@ -326,7 +328,7 @@ div.fumetto::after{
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 10px solid #1fb5f4;
+  border-left: 10px solid #ffffff;
   position: absolute;
   right: -9px;
   bottom: 14px;
