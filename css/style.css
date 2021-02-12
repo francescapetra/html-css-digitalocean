@@ -373,7 +373,7 @@ p.help{
  }
 }
 @media screen and (max-width:768px) {
-  div.container-fluid.hero{
+  div.hero{
     height: auto;
   }
   img.loghi_img {
